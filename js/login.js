@@ -3,7 +3,7 @@ function login() {
   const password = document.getElementById("password").value.trim();
 
   const correctUsername = "MissXu";
-  const correctPassword = "20030715";
+  const correctPassword = "20030713";
 
   if (username === correctUsername && password === correctPassword) {
     window.location.href = "welcome.html";
